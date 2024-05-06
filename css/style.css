@@ -94,6 +94,8 @@ body {
 .progress-content span {
   font-size: 18px;
   width: 40px;
+  font-weight: 600;
+  font-family: 'poppins', sans-serif;
 }
 
 .progress {
