@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d2ddf6;
+  font-family: "Merriweather", serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  padding: 60px;
+  width: 966px;
+  height: 504px;
+  background-color: #f6f9ff;
+  border-radius: 50px;
+  box-shadow: 15px 20px #e5edff;
+ 
+  
+}
+
+.card h1 {
+  font-size: 32px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+.card p {
+  font-family: "poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.chart-section {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.progress-section {
+  width: 100%;
+  padding: 10px;
+  z-index: 100;
+}
+
+.chart {
+  position: relative;
+  width: 250px; 
+  height: 250px; 
+  z-index: 100;
+  filter: drop-shadow(8px 8px 2px #cfdcff);
+}
+
+
+
+.progress-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+  gap: 10px;
+}
+
+.progress-bar p {
+  margin-right: 10px;
+  width: 80%;
+}
+
+.progress-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 5px;
+  justify-content: flex-end;
+}
+
+.progress-content span {
+  font-size: 18px;
+  width: 40px;
+}
+
+.progress {
+  height: 6px; 
+  background-color: #6792ff;
+  border-radius: 10px;
+}
+.doughnut {
+  position: relative;
+  z-index: 50;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 18px;
+  line-height: 27px;
+  z-index: -1;
+  
+}
+
+.bar1{
+    background-color: #6792FF;
+    width: 180px !important;
+}
+
+.bar2{
+    background-color: #4473EA;
+    width: 151px !important;
+}
+
+.bar3{
+    background-color: #1A52E1;
+    width: 93px !important;  
+}
+
+.bar4{
+    background-color: #96B3FF;
+    width: 35px !important;
+}
+
+.see{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    color: #1A52E1;
+    transition: all 0.5s ease;
+
+}
+
+.see:hover{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
